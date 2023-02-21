@@ -13,13 +13,19 @@ exports[`Pruebas en <CounterApp/> Debe hacer match con el snapshot 1`] = `
   <div
     class="buttons"
   >
-    <button>
+    <button
+      aria-label="btn-add"
+    >
       +1
     </button>
-    <button>
+    <button
+      aria-label="btn-substract"
+    >
       -1
     </button>
-    <button>
+    <button
+      aria-label="btn-reset"
+    >
       Reset
     </button>
   </div>
@@ -39,13 +45,19 @@ exports[`Pruebas en <CounterApp/> Debe mostrar el valor por defecto de 100 1`] =
   <div
     class="buttons"
   >
-    <button>
+    <button
+      aria-label="btn-add"
+    >
       +1
     </button>
-    <button>
+    <button
+      aria-label="btn-substract"
+    >
       -1
     </button>
-    <button>
+    <button
+      aria-label="btn-reset"
+    >
       Reset
     </button>
   </div>
