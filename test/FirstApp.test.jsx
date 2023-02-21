@@ -19,7 +19,6 @@ describe('Pruebas en <FirstApp />', () => {
     test('Debe mostrar el título en un h1', () => {
         const title = 'Hola, soy Goku'
         const {container, getByText, getByTestId} = render(<FirstApp title={title}/>)
-
         const h1 = container.querySelector('h1')
         expect(getByText(title)).toBeTruthy()
         // expect(h1.textContent).toBe(title)
@@ -38,6 +37,4 @@ describe('Pruebas en <FirstApp />', () => {
         expect(getAllByText(subtitle).length).toBe(2)
 
     })
-
-
 })
