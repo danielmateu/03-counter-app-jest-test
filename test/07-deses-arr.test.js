@@ -5,6 +5,7 @@ describe('Pruebas en 07-deses-arr.js', () => {
         //Inicialización
         const [letras, numeros] = retornaArreglo()
         //Estimulo
+
         //Observar el comportamiento
         expect(letras).toBe('ABC')
         expect(typeof letras).toBe('string')
@@ -13,3 +14,4 @@ describe('Pruebas en 07-deses-arr.js', () => {
     })
 
 })
+
