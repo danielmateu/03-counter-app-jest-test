@@ -1,25 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-
-const newMessage = {
-    title: '',
-    subtitle: 1,
-    body: 'React is working!',
-    name: '',
-    age: 30,
-    hero: true,
-    power: 'Super Speed',
-};
-
-// const getResult = () => {
-//     return 1 + 1;
-// }
-
 export const FirstApp = ({title,subtitle, name}) => {
-
-    
-
 
     return (
         <>
@@ -33,12 +15,12 @@ export const FirstApp = ({title,subtitle, name}) => {
 
 FirstApp.propTypes = {
     title: PropTypes.string.isRequired,
-    subtitle: PropTypes.number,
+    subtitle: PropTypes.string,
     
 }
 
 FirstApp.defaultProps = {
-    title: 'Default Title',
-    subtitle: 'Default Subtitle',
+    // title: 'Default Title',
+    subtitle: 'No hay subtitulo',
     name: 'Daniel Mateu'
 }

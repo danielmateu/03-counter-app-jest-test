@@ -7,13 +7,13 @@ import './styles.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    {/* <FirstApp 
+    <FirstApp 
       title = 'Eres Gay?'
       // subtitle = {123456}
-    /> */}
-
-    <COunterApp
-      value = {10}
     />
+
+    {/* <COunterApp
+      value = {10}
+    /> */}
   </React.StrictMode>
 )
