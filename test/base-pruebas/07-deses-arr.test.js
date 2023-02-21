@@ -1,4 +1,4 @@
-import { retornaArreglo } from "../src/base-pruebas/07-deses-arr";
+import { retornaArreglo } from "../../src/base-pruebas/07-deses-arr";
 
 describe('Pruebas en 07-deses-arr.js', () => {
     test('retornaArreglo debe de retornar un string y un número', () => {

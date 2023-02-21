@@ -8,8 +8,7 @@ import './styles.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <FirstApp 
-      title = 'Eres Gay?'
-      // subtitle = {123456}
+      title = 'Hola Mundo!'
     />
 
     {/* <COunterApp
